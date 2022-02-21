@@ -1,3 +1,8 @@
+.review-slider-container {
+  margin-top: 32px;
+  margin-bottom: 60px;
+}
+
 .review-slider-container marquee img {
   width: 300px !important;
   height: 400px;
@@ -9,6 +14,89 @@
   width: 100%;
   height: auto;
   display: flex;
+}
+
+.bg-blue {
+  background-color: #97b0ff;
+}
+
+.home-welcome {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #97b0ff;
+}
+
+.home-side-image {
+  max-width: 300px;
+  float: left;
+}
+
+.home-welcome-section {
+  width: 530px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.home-welcome-h1 {
+  font-family: PromoBold;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 70px;
+  line-height: 110%;
+  text-align: center;
+  letter-spacing: -0.03em;
+  color: #ffd9e0;
+  -webkit-text-stroke: 1px #2f3292;
+  margin-bottom: 18px;
+}
+
+.home-welcome-p {
+  font-family: Poppins;
+  font-size: 20px;
+  line-height: 160%;
+  letter-spacing: -0.02em;
+  color: #2f3292;
+}
+
+.home-about {
+  display: flex;
+  padding: 0px 32px;
+  justify-content: center
+}
+.home-about.bg-white{
+  background:white;
+}
+
+.home-about-text h1 {
+  text-align: left;
+}
+
+.home-about > div {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center
+}
+
+.connect-wallet-btn {
+  width: 184px;
+  height: 48px;
+  background: #7687ff;
+  border-radius: 100px;
+  border: none;
+  font-family: Promo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: 0.3px;
+  color: white;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 480px) {

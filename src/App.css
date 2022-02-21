@@ -10,3 +10,7 @@
   font-family: 'PromoMedium';
   src: local('MyFont'), url(./assets/fonts/Promo-Medium.otf) format('woff');
 }
+@font-face {
+  font-family: 'Poppins';
+  src: local('MyFont'), url(./assets/fonts/PoppinsRegular.ttf) format('woff');
+}
