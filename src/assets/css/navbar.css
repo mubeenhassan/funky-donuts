@@ -26,7 +26,7 @@ img {
 
 .menu-link li {
   list-style: none;
-  margin-right: 48px;
+  margin-right: 24px;
 }
 .menu-link li a {
   text-decoration: none;
@@ -199,5 +199,6 @@ img {
   .connect-wallet {
     max-width: 184px;
     width: 100%;
+    padding:0px 16px;
   }
 }
