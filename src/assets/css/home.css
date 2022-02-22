@@ -1,6 +1,6 @@
 .review-slider-container {
   margin-top: 32px;
-  margin-bottom: 60px;
+  margin-bottom: 10%;
 }
 
 .review-slider-container marquee img {
@@ -65,8 +65,10 @@
 
 .home-about {
   display: flex;
-  padding: 0px 32px;
-  justify-content: center
+  padding: 4% 0px 5%;
+  justify-content: space-between;
+  margin: auto;
+  max-width:1200px;
 }
 .home-about.bg-white{
   background:white;
@@ -97,6 +99,53 @@
   letter-spacing: 0.3px;
   color: white;
   cursor: pointer;
+}
+
+.green-bg svg{
+  background:#D9EF9D;
+}
+
+@media screen and (max-width: 768px) {
+  .home-side-image{
+    display: none;
+  }
+
+  .home-welcome-section{
+    position:initial;
+    transform:none;
+    width:90%;
+    margin: 10% auto 30%;
+  }
+
+  .home-welcome-h1{
+    font-size:3rem;
+  }
+
+  .home-about{
+    flex-direction: column-reverse;
+    padding: 10% 0;
+  }
+
+ .home-about.bg-white{
+    flex-direction: column;
+  }
+
+  .home-about > div{
+    width:100%;
+    padding:0px 16px;
+    text-align:center;
+  }
+
+  .home-about-text h1{
+    text-align:center;
+  }
+  .connect-wallet-btn{
+    margin: auto;
+  }
+
+  .review-slider-container{
+    margin-bottom: 20%;
+  }
 }
 
 @media screen and (max-width: 480px) {
